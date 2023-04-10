@@ -1,0 +1,51 @@
+// Importación de archivos
+@import 'styles/variables';
+@import '../../vendor/scss/_bootstrap/bootstrap';
+@import '../../vendor/scss/_bootstrap_icons/bootstrap-icons';
+@import 'styles/typography';
+@import 'styles/style';
+
+h1{
+ font-size: 4em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container-fluid-section{
+  padding: 7% 15% ;
+}
+.container-fluid-image{
+  padding: 10% 30% ;
+}
+.container-fluid-image-2{
+  width: 500px;
+}
+.filas{
+  flex-direction: column
+}
+
+.container-fluid-section-2{
+  padding: 3% 3% 0% 3%;
+}
+.body{
+  text-align: center;
+}
+.body-component{
+text-align: justify ;
+}
+.colored-section{
+background-color: #FDFDBD;
+color:#354259
+}
+.light-color{
+  background-color: #B1AFFF;
+}
+.h-custom {
+  height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+  }
